@@ -10,7 +10,8 @@ function isValidEmail(email) {
 		"outlook.com",
 		"icloud.com",
 		"live.com",
-		"zohomail.com"
+		"zohomail.com",
+		"email.com"
 	];
 
 	const domain = email.split("@")[1].toLowerCase();
