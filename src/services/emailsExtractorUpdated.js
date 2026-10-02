@@ -11,7 +11,8 @@ function isValidEmail(email) {
 		"icloud.com",
 		"live.com",
 		"zohomail.com",
-		"email.com"
+		"email.com",
+		"vitimcloud.com", // fake company domain
 	];
 
 	const domain = email.split("@")[1].toLowerCase();
